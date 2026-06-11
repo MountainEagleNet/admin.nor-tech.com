@@ -1,0 +1,146 @@
+a:link {
+	color: #003399;
+	text-decoration: none;
+}
+a:visited {
+	color: #003399;
+	text-decoration: none;
+}
+a:active {
+	color: #003399;
+	text-decoration: none;
+}
+a:hover {
+	color: #003399;
+	background-color: #FFFFCC;
+	text-decoration: underline;
+}
+a.menuwh:link {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #006633;
+	}
+a.menuwh:visited {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #006633;
+	}
+a.menuwh:active {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #006633;
+	}	
+a.menuwh:hover {
+  color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:underline;
+	background-color: #006633;
+	}
+	
+.textmain {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.subhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+}
+.textsmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.textleftnav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #003399;
+
+}
+
+.partnersNavBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #003399;
+}
+.partnersNav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #003399;
+}
+
+
+.productTitle {
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+.pagetitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+
+}
+.subpagetitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:#000099;
+
+}
+.systemName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF; 
+	background-color:#006633;
+}
+.systemPrice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #0033CC;
+}
+.systemPriceLarge {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #7AB796;
+	text-align: center;
+}
+.textBlueSmall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0033CC;
+}
+.systemCategory {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	font-weight:bold; 
+	color: #000000;
+}
+.textMediumBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold; 
+	color: #000000;
+}

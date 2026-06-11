@@ -1,0 +1,120 @@
+PROPERTIES
+settings (holds object data and settings)
+	
+FUNCTIONS
+string getErrorID()
+void setErrorID(string oid)
+object getError()
+
+string getSoundID()
+void setSoundID(string oid)
+object getSound()
+
+string getSettingsID()
+void setSettingsID(string oid)
+object getSettings()
+
+string getFormID()
+void setFormID(string oid)
+object getForm()
+
+void showPopup(string fieldname, string content)
+void hidePopup()
+
+string getEmptySound()
+void setEmptySound(string file)
+
+string getDupeSound()
+void setDupeSound(string file)
+
+string getMaskSound()
+void setMaskSound(string file)
+
+void playSound(string file)
+
+string getPrefix()
+void setPrefix(string prefix)
+
+string getSeparator()
+void setSeparator(string sep)
+
+string getFullPrefix()
+
+boolean getNumbered()
+void setNumbered(boolean numbered)
+
+void activateFields(string fieldname)
+void clearError(string fieldname)
+void correctError(string fieldname)
+void ignoreError(string fieldname)
+void restartError()
+void placeCursor()
+
+array getFieldIDs()
+array getFields()
+
+object getField(string fieldname)
+numeric getFieldNumber(string fieldname)
+boolean isLastField(string fieldname)
+boolean isFirstField(string fieldname)
+string getFieldValue(string fieldname)
+numeric countFields()
+numeric getFieldIndex()
+
+void resetFields()
+void resetField(string fieldname)
+
+void markField(string fieldname, object style)
+void markFields(object style)
+
+void unlockFields()
+void lockFields()
+
+void unlockField(string fieldname)
+void lockField(string fieldname)
+
+numeric getLeftPos(object field)
+numeric getTopPos(object field)
+
+numeric getFieldTop(string fieldname)
+numeric getFieldLeft(string fieldname)
+
+void nextField(string fieldname)
+
+string getFieldMask(string fieldname)
+
+string getFieldDuplicate(string fieldname)
+
+boolean isValidMask(string fieldname)
+boolean isDuplicate(string fieldname)
+boolean isEmpty(string fieldname)
+
+string getFieldName(numeric pos)
+
+boolean getDupeAlert()
+void setDupeAlert(boolean enabled)
+
+boolean getMaskAlert()
+void setMaskAlert(boolean enabled)
+
+boolean getEmptyAlert()
+void setEmptyAlert(boolean enabled)
+
+numeric getKeyCode()
+void setKeyCode(numeric keycode)
+
+boolean getCancelEvent()
+void setCancelEvent(boolean enabled)
+
+string getMaskTemplate()
+void setMaskTemplate(string mask)
+
+void doMaskError()
+void doDupeError()
+void doEmptyError()
+
+void init()
+
+
+
+

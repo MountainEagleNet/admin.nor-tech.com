@@ -1,0 +1,297 @@
+body {
+	color: #333333;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+a:link {
+	color: #003399;
+	text-decoration: none;
+}
+a:visited {
+	color: #003399;
+	text-decoration: none;
+}
+a:active {
+	color: #003399;
+	text-decoration: none;
+}
+a:hover {
+	color: #003399;
+	background-color: #FFFFCC;
+	text-decoration: underline;
+}
+a.menuwh:link {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #006633;
+	}
+a.menuwh:visited {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #006633;
+	}
+a.menuwh:active {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #006633;
+	}	
+a.menuwh:hover {
+  color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:underline;
+	background-color: #006633;
+	}
+	
+.textmain {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.subhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00793C;
+}
+.textsmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.textleftnav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #003399;
+
+}
+
+.partnersNavBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #003399;
+}
+.partnersNav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #003399;
+}
+
+
+.productTitle {
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+.pagetitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+
+}
+.subpagetitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:#00793C;
+
+}
+.systemName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF; 
+	background-color:#006633;
+}
+.systemPrice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #0033CC;
+}
+.systemPriceLarge {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #7AB796;
+}
+.textBlueSmall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0033CC;
+}
+.systemCategory {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	font-weight:bold; 
+	color: #000000;
+}
+.textMediumBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold; 
+	color: #000000;
+}
+
+/* Partners Section, Configurator.  5/13/09 */
+.listSystemHeadings {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	font-weight:bold; 
+	color:#000; 
+}
+.listSortSelect {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	font-weight:bold; 
+	color:#003399; 
+}
+.listSystemName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	font-weight: bold;
+	color:#063;
+}
+.listSystemDescription {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	font-weight:normal; 
+	color:#000; 
+}
+.listSystemPrice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	font-weight:bold; 
+	color:#006633; 
+}
+
+/*spilldown nav*/
+
+.spill {
+	position:absolute; 
+	list-style:none; 
+	font-size:.8em;
+	visibility:hidden;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	z-index:100
+}
+.spill a {
+	padding:3px; 
+	background:#EFF3ED; 
+	border-bottom:#060 1px dotted; 
+	display:block;
+	width:110px;
+	color:#060; 
+	text-decoration:none
+}
+.spill a:hover {background:#060; color:#EFF3ED}
+
+.active {display:block}
+
+.spill a.closer {background:#009052; color:#EFF3ED; padding:0 3px; height:10px; text-align:center; text-decoration:none}
+.spill a:hover.closer {background:#060}
+
+
+
+/*tabs toggle*/
+
+
+
+#tabSet {padding:5px; border:1px #999999 solid; background:#cccccc}
+#tabSet #tabs {list-style:none; margin:7px 0 8px 0; padding:2px}
+#tabSet #tabs li { display:inline; padding:10px; margin:0 -2px; background:#e4e4e4; cursor:pointer }
+#tabSet #tabs li.active, #tabSet #tabs li.active:hover {background:#fff}
+#tabSet #tabs li:hover {background:#fbfae4}
+#tabSet #tabs li.first {border-top-left-radius:5px}
+#tabSet #tabs li.last {border-top-right-radius:5px}
+
+#tabSet .fields {background:#fff; padding:15px; display:none}
+#tabSet .fields.active {display:block}
+
+
+ul.keyFeatures {margin:30px 15px; padding-top:0; clear:both; font-size:12px}
+ul.keyFeatures li {margin-bottom:8px}
+
+
+/*tabs toggle - 8/13/2012*/ 
+
+
+.tabsContainer {
+	border:1px solid #AAAAAA;
+	border-radius:4px;	
+}
+.panes {
+	clear:both;
+	list-style:none;
+	margin:10px;
+	padding: 5px;
+}
+.panes li.pane {
+	display:none;
+}
+
+.tabs {
+	background:#ccc;
+	border:1px solid #AAAAAA;	
+	color:#222222;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+	list-style:none;
+	margin:10px;
+	padding:3px 5px 30px;
+}
+.tabs li {
+	background: #E6E6E6;
+    border: 1px solid #D3D3D3;
+    border-bottom: 0 none !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+	color: #555555;
+	float:left;
+	list-style: none outside none;
+    margin: 0 0.2em 1px 0;
+    padding: 6px 0;
+    position: relative;
+    top: 1px;
+    white-space: nowrap;
+}
+.tabs li.active {
+	background: url("images/ui-bg_glass_65_ffffff_1x400.png") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #212121;
+	 padding-bottom: 10px;
+}
+.tabs a, .tabs a:active, .tabs a:visited, .tabs a:hover  {
+	color: #555555;
+	outline: none!important;
+	padding:0.5em 1em;
+	text-decoration:none;
+}
+.tabs a:focus {outline:none!important;} 
+
+.pane li { display:list-item!important;}
+
+/*sidebar*/
+#sidebarDeployments {margin:15px 6px 15px 15px; padding:5px;}
+#sidebarDeployments img {border:1px #666 solid; margin-top:10px;}
+#sidebarDeployments div {margin:5px 0 5px 0; padding-bottom:10px; border-bottom:1px dotted #999999}
+
+
+iframe {background:url(/images/loading.gif) no-repeat center top;}

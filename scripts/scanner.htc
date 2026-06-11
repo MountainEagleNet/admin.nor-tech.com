@@ -1,0 +1,27 @@
+<attach event="onkeyup" handler="captureKey" />
+<attach event="onkeypress" handler="negateKey"/>
+<attach event="onkeydown" handler="negateKey"/>
+
+
+<script language="JScript">
+function captureKey() {
+	if(window.scanner.getKeyCode() == event.keyCode) {
+		if(window.scanner.isEmpty(event.srcElement.name) == true && window.scanner.getEmptyAlert() == true) { 
+			window.scanner.doEmptyError(event.srcElement.name); 
+		}
+		else if(window.scanner.isValidMask(event.srcElement.name) == false && window.scanner.getMaskAlert() == true) { 
+			window.scanner.doMaskError(event.srcElement.name); 
+		}
+		else if(window.scanner.isDuplicate(event.srcElement.name) == true && window.scanner.getDupeAlert() == true) { 
+			window.scanner.doDupeError(event.srcElement.name); 
+		}
+		else { window.scanner.nextField(event.srcElement.name); }
+		event.cancel = true;
+	}
+}
+function negateKey() {
+	if(window.scanner.getKeyCode() == event.keyCode) {
+		event.cancel = true;
+	}
+}
+</script>
